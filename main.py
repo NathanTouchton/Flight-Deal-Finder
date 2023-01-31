@@ -11,16 +11,8 @@ from data_manager import Sheety
 
 # SHEETY_DATA = Sheety()
 
-TWILIO_SID = environ["TWILIO_SID"]
-TWILIO_KEY = environ["TWILIO_KEY"]
-
-TEQUILA_HEADER = {
-    "apikey": environ["TEQUILA_KEY"],
-}
-
-
-# TEQUILA_ENDPOINT = get("https://api.tequila.kiwi.com/v2/search", headers=TEQUILA_HEADER)
-# TEQUILA_ENDPOINT.raise_for_status()
+# TWILIO_SID = environ["TWILIO_SID"]
+# TWILIO_KEY = environ["TWILIO_KEY"]
 
 # message = client.messages.create(
 #   body="Hello from Twilio",
