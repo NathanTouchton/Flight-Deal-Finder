@@ -9,7 +9,7 @@ from data_manager import Sheety
 # TODO 3: Send text if price is under the threshold.
     # TODO 3.1: The SMS should include the departure airport IATA code, destination airport IATA code, departure city, destination city, flight price and flight dates.
 
-SHEETY_DATA = Sheety()
+# SHEETY_DATA = Sheety()
 
 TWILIO_SID = environ["TWILIO_SID"]
 TWILIO_KEY = environ["TWILIO_KEY"]
@@ -28,4 +28,4 @@ TEQUILA_HEADER = {
 #   to="+12244062483"
 # )
 
-SHEETY_DATA.print_data()
+# SHEETY_DATA.print_data()
