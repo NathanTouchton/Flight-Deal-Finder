@@ -1,5 +1,5 @@
 from pprint import pprint
-from requests import get, put
+from requests import get
 
 class Sheety():
     def __init__(self):
